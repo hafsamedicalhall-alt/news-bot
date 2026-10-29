@@ -1,0 +1,6 @@
+python-telegram-bot
+requests
+beautifulsoup4
+html2image
+imageio-ffmpeg
+edge-tts
