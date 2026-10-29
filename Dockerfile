@@ -1,10 +1,10 @@
 FROM python:3.10-slim
 
+# লিনাক্স সার্ভারে ক্রোমিয়াম ও বাংলা ফন্ট ইনস্টল
 RUN apt-get update && apt-get install -y \
     chromium \
     chromium-driver \
-    fonts-bengali \
-    fonts-freefont-ttf \
+    fonts-beng \
     && rm -rf /var/lib/apt/lists/*
 
 ENV CHROME_BIN=/usr/bin/chromium
